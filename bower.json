@@ -1,0 +1,30 @@
+{
+  "name": "merbie",
+  "version": "0.0.1",
+  "homepage": "merbie.herokuapp.com",
+  "authors": [
+    "Whitney Merkel"
+  ],
+  "description": "Monster and I playing with angular and using the data from Top Gear pages on wikipedia",
+  "main": "app.js",
+  "keywords": [
+    "monster"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-bootstrap": "~0.12.1",
+    "angular-resource": "~1.3.13",
+    "angular-mocks": "~1.3.13",
+    "angular": "~1.3.13",
+    "bootstrap": "~3.3.2",
+    "angular-route": "~1.3.13"
+  }
+}
