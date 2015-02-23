@@ -14,10 +14,16 @@ Tests, Codeship build, Heroku deploy
 
 # Reference
 
-* [ExpressJS]()
-* [Jade]()
-* [AngularJS]()
-* [Bootstrap]()
-* [Bower]()
-* [Karma]()
-* [Jasmine]()
+* [ExpressJS](http://expressjs.com/)
+
+* [Jade](http://jade-lang.com/)
+
+* [AngularJS](https://angularjs.org/)
+
+* [Bootstrap](http://getbootstrap.com/)
+
+* [Bower](http://bower.io/)
+
+* [Karma](http://karma-runner.github.io/0.12/index.html)
+
+* [Jasmine](http://jasmine.github.io/2.2/introduction.html)
