@@ -27,3 +27,55 @@ Tests, Codeship build, Heroku deploy
 * [Karma](http://karma-runner.github.io/0.12/index.html)
 
 * [Jasmine](http://jasmine.github.io/2.2/introduction.html)
+
+# Testing
+
+I had wated to set up some tests for the express side of things in mocha and kamra-jasmine for the angular part but I was
+unable to get them running together so the next best thing is running them automatically together.
+
+## Setting up Karma for Continuous Testing
+
+ Thats kinda what karmas thing is so just run
+
+```
+karma start
+```
+
+## Setting up mochajs for Continuous Testing
+
+I created a make file to run our tests then added that to the npm scripts section.
+
+found this [blog post](https://coderwall.com/p/fdcsyq/auto-run-tests-in-node-js) to use supervisor.
+So I want ahead and added supervisor to our package.json and added this in the "scripts" section.
+
+```
+"autotest": "./node_modules/.bin/supervisor -q -n exit -x npm test",
+```
+
+
+so now to have it watch and run all the time just run:
+
+```
+npm run autotest
+```
+
+
+### Setting up Growl notifications for mocha
+
+create a gemset and an rvmrc(if you want to have rvm change to your gemset automatically)
+
+```
+rvm 2.1.1@merbie --create --rvmrc
+gem install terminal-notifier
+```
+
+install the growl package for npm
+
+```
+npm install growl
+```
+
+we can add a Gemfile later if we end up using more than one gem
+
+
+
