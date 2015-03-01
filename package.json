@@ -15,6 +15,10 @@
     "type": "git",
     "url": "https://github.com/orieken/merbie.git"
   },
+  "engines": {
+    "node": "0.12.x",
+    "npm": "2.5.1"
+  },
   "keywords": [
     "monster"
   ],
