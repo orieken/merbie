@@ -1,6 +1,8 @@
 # Merbie
 
-Monster and I playing with angular and using the data from Top Gear pages on wikipedia 
+Monster and I playing with angular and using the data from Top Gear pages on wikipedia
+
+Deployed here [Merbie](https://merbie.herokuapp.com/)
 
 ### Where did we get data from
 
@@ -9,7 +11,7 @@ Monster and I playing with angular and using the data from Top Gear pages on wik
 
 # More to come
 
-Tests, Codeship build, Heroku deploy
+Codeship build
 
 
 # Reference
@@ -27,6 +29,11 @@ Tests, Codeship build, Heroku deploy
 * [Karma](http://karma-runner.github.io/0.12/index.html)
 
 * [Jasmine](http://jasmine.github.io/2.2/introduction.html)
+
+* [Mocha](http://mochajs.org/)
+
+* [Chai](http://chaijs.com/api/bdd/)
+
 
 # Testing
 
