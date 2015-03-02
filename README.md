@@ -4,14 +4,12 @@ Monster and I playing with angular and using the data from Top Gear pages on wik
 
 Deployed here [Merbie](https://merbie.herokuapp.com/)
 
+Codeship build Status [ ![Codeship Status for orieken/merbie](https://codeship.com/projects/ea596f70-a2fc-0132-ca15-76961affc56e/status?branch=master)](https://codeship.com/projects/65886)
+
 ### Where did we get data from
 
 * [Star in a Reasonably Priced Car](http://en.wikipedia.org/wiki/Top_Gear_test_track)
 * [List of Top Gear test track Power Lap Times](http://en.wikipedia.org/wiki/List_of_Top_Gear_test_track_Power_Lap_Times)
-
-# More to come
-
-Codeship build
 
 
 # Reference
